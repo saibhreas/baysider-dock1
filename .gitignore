@@ -1,4 +1,6 @@
 node_modules
+config/config.env
+
 /node_modules
 /.pnp
 .pnp.js

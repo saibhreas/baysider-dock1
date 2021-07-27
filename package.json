@@ -1,0 +1,27 @@
+{
+  "name": "baysider-dock1",
+  "version": "1.0.0",
+  "description": "Sandbox for backend API for DevCamp project by TraversyMedia",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibhreas/baysider-dock1.git"
+  },
+  "author": "saibhreas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saibhreas/baysider-dock1/issues"
+  },
+  "homepage": "https://github.com/saibhreas/baysider-dock1#readme"
+}
