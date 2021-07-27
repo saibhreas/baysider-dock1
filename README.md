@@ -14,7 +14,9 @@ Development site for Traversy Media backend API for DevCamper
   It's my sandbox to exhibit this model for Node Express  MongoDB side.  NPM installations will be done in pieces as the project develops.
   Annotation to the README will follow changes as prescribed by the course.
   Routes to be implemented:
+  
     GET/POST/PUT/DEDETE
+
       * /api/v1/bootcamps
       * /api/v1/courses
       * /api/v1/reviews

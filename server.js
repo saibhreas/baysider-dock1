@@ -7,11 +7,17 @@ dotenv.config({ path: "./config/config.env" });
 
 const app = express();
 
-app.get('/', (req, res)=> {
-
-  res.status(200).json({ success: true, data:{}})
-  res.status(400).json({ success: false});
-
+app.get('/api/v1/bootcamps', (req, res) => {
+  res.status(200).json({ success: true, msg:'Show all Bootcamps'});
+});
+app.post('/api/v1/bootcamps', (req, res) => {
+  res.status(200).json({ success: true, msg:'Create new Bootcamp'});
+});
+app.put('/api/v1/bootcamps', (req, res) => {
+  res.status(200).json({ success: true, msg:'Update single Bootcamp'});
+});
+app.delete('/api/v1/bootcamps', (req, res) => {
+  res.status(200).json({ success: true, msg:'Delete single Bootcamp'});
 });
 
 const PORT = process.env.PORT || 5000;
