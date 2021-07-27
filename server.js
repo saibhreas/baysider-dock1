@@ -1,5 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const mongoose = require("mongoose");
 
 //Load config file-- Load env vars
 dotenv.config({ path: "./config/config.env" });

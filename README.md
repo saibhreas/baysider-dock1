@@ -42,6 +42,7 @@ Development site for Traversy Media backend API for DevCamper
   ### Installation
     * npm i express dotenv
     * npm i -D nodemon
+    * npm install mongoose
   * ${data.run}  
   
   ### Usage
