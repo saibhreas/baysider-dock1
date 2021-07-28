@@ -22,7 +22,7 @@ exports.getBootcamp = (req, res, next)=> {
 exports.createBootcamp = (req, res, next)=> {
   res
     .status(200)
-    .json({ success: true, msg:'Create new Bootcamp'});
+    .json({ success: true, msg:`Create new Bootcamp ${req.params.id}`});
 }
 
 // @desc      Update one by ID
