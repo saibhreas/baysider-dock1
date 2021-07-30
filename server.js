@@ -1,11 +1,22 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const morganlogger = require('morgan');
+const morgan = require('morgan');
+const connectDB = require('./config/db');
+
+//Load config file-- Load env vars
+dotenv.config({ path: "./config/config.env" });
+
+// Connect to database
+connectDB();
+
+
 const mongoose = require("mongoose");
+
+
 
 //link to route files
 const bootcamps = require('./routes/bootcamps');
-const morgan = require("morgan");
+
 
 //Load config file-- Load env vars
 dotenv.config({ path: "./config/config.env" });
