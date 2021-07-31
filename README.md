@@ -36,6 +36,7 @@ Development site for Traversy Media backend API for DevCamper
     * npm i -D nodemon
     * npm install mongoose
     * npm i colors
+    npm i slugify
 
 
   * ${data.run}  
