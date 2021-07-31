@@ -33,7 +33,7 @@ exports.getBootcamp = async (req, res, next)=> {
     .status(200)
     .json({ success: true, data: bootcamp});
   }catch (err){
-    next (new ErrorResponse(`Bootcamp not found with id of ${req.params.id}`, 404));
+    next (err);
   }
 };
 
