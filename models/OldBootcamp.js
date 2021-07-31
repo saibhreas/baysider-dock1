@@ -1,6 +1,6 @@
+//create schema of fields:
 const mongoose = require('mongoose');
 //const slugify = require('slugify');
-//const geocoder = require('../utils/geocoder');
 
 const BootcampSchema = new mongoose.Schema(
   {
@@ -98,9 +98,17 @@ const BootcampSchema = new mongoose.Schema(
     createdAt: {
       type: Date,
       default: Date.now
+    },
+    user: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'User',
+      required: true
     }
+  },
+  {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
   }
-
 );
 
-module.exports = mongoose.model('Bootcamp', BootcampSchema);
+module.exports = mongoose.model("Bootcamp", BootcampSchema);
