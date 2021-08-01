@@ -36,10 +36,11 @@ Development site for Traversy Media backend API for DevCamper
     * npm i -D nodemon
     * npm install mongoose
     * npm i colors
-    npm i slugify
+    * npm i slugify
+    * npm install node-geocoder
 
 
-  * ${data.run}  
+   
   
   ### Usage
     *     GET/POST/PUT/DEDETE
