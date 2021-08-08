@@ -24,4 +24,5 @@ router.route('/')
   .put(updateBootcamp)
   .delete(deleteBootcamp)
 
-module.exports = router;
+module.exports = route;
+
