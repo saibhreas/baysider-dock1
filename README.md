@@ -32,11 +32,11 @@ Development site for Traversy Media backend API for DevCamper
   ## Table of Content
   
   1. [Description](##description)
-  2. [Installation](###instalation)
+  2. [Installation](###installation)
   3. [Usage](###usage)
   4. [Contributing](###contributing)
   5. [Technologies](###technologies)
-  6. [Questions:(###qusetions)]
+  6. [Questions:(###questions)]
   
   ## Description
   
@@ -47,6 +47,20 @@ Development site for Traversy Media backend API for DevCamper
   ${renderLicenseLink(data.lic)}
   
   ### Installation
+
+NPM init create package.json
+
+  - Edit scripts in package.json
+
+        "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "start": "NODE_ENV=production node server",
+         "dev": "nodemon server"
+        }
+
+
+Add Dependencies
+
     * npm i express dotenv
     * npm i -D nodemon
     * npm install mongoose
@@ -58,7 +72,7 @@ Development site for Traversy Media backend API for DevCamper
    
   
   ### Usage
-    *     GET/POST/PUT/DEDETE
+    *     GET/POST/PUT/DELETE
 
       * /api/v1/bootcamps
       * /api/v1/courses
