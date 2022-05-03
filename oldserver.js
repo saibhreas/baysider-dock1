@@ -1,6 +1,6 @@
 const path = require('path');
-const express = require("express");
-const dotenv = require("dotenv");
+const express = require('express');
+const dotenv = require('dotenv');
 const morgan = require('morgan');
 const colors = require('colors');
 const errorHandler = require('./middleware/error');
@@ -8,7 +8,7 @@ const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 
 //Load config file-- Load env vars
-dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: './config/config.env' });
 
 // Connect to database
 connectDB();
@@ -22,8 +22,7 @@ const app = express();
 // Body parser
 app.use(express.json());
 
-//Dev logging middleware
-//only want to run in dev mode
+//Dev logging middleware   only want to run in dev mode
 if(process.env.NODE_ENV === 'development'){
   app.use(morgan('dev'))
 }

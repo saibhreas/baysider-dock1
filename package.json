@@ -1,21 +1,18 @@
 {
   "name": "baysider-dock1",
   "version": "1.0.0",
-  "description": "Sandbox for backend API for DevCamp project by TraversyMedia",
+  "description": "Sandbox for backend API for DevCamp project by Traversy Media",
   "main": "server.js",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.13.3",
+    "express": "^4.18.1",
+    "mongoose": "^5.13.14",
     "morgan": "^1.10.0",
-    "node-geocoder": "^3.27.0",
-    "nodemon": "^2.0.12",
-    "slugify": "^1.6.0"
+    "node-geocoder": "^3.29.0",
+    "slugify": "^1.6.5"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production node server",
     "dev": "nodemon server"
   },
@@ -28,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/saibhreas/baysider-dock1/issues"
   },
-  "homepage": "https://github.com/saibhreas/baysider-dock1#readme"
+  "homepage": "https://github.com/saibhreas/baysider-dock1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
