@@ -1,9 +1,11 @@
 {
   "name": "baysider-dock1",
   "version": "1.0.0",
-  "description": "Sandbox for class on Node API's",
+  "description": "Sandbox for backend API for DevCamp project by Traversy Media",
   "main": "server.js",
-  "scripts": {
+  "dependencies": {
+    
+  },  "scripts": {
     "start": "NODE_ENV=production node server",
     "dev": "nodemon server"
   },
@@ -17,10 +19,6 @@
     "url": "https://github.com/saibhreas/baysider-dock1/issues"
   },
   "homepage": "https://github.com/saibhreas/baysider-dock1#readme",
-  "dependencies": {
-    "dotenv": "^16.0.0",
-    "express": "^4.18.1"
-  },
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
