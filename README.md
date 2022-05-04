@@ -90,7 +90,18 @@ Add Dependencies
     
   4 Create controllers (middleware introduction)
 
-    Login
+  note: every piece of middleware must call next: *next()*
+
+    Logger: example of middleware, lead into *express/morgan*
+
+  5 express/morgan   added
+
+  https://expressjs.com/en/resources/middleware/morgan.html
+
+    $ npm install morgan
+    var morgan = require('morgan')
+
+    
 
 Documentation practices
 
