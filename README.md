@@ -68,8 +68,10 @@ Add Dependencies
     * npm i slugify
     * npm install node-geocoder
 
+#### Development stages
+  1 Build Server
 
-Routes to be used
+  2 Flesh out Routes to be used
 
      GET/POST/PUT/DELETE
 
@@ -80,7 +82,16 @@ Routes to be used
       * /api/v1/users
   
     /v1 is implemented to allow for AGILE production.  /vx may be implemented later on depending on site changes and api development 
-  
+
+  3 Clean code for readability and scalability
+
+    create config for dotenv
+    create route folder and js
+    
+  4 Create controllers (middleware introduction)
+
+    Login
+
 Documentation practices
 
   Files
