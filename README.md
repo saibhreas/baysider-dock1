@@ -101,7 +101,22 @@ Add Dependencies
     $ npm install morgan
     var morgan = require('morgan')
 
+  Add conditional to server so morgan is only b used in development mode add these lines to the *server.js*
+
+    const morgan = require('morgan');
     
+    if(process.env.NODE_ENV === 'development') {
+      app.use(morgan('dev'));
+    };
+    
+  6 Begin building out Postman collections and documentation
+
+  - set new environment for project
+  - set up variable for URL, makes easier for development
+  - create simle CRUD for bootcamps
+
+  7 Intro duce database to the project and begin models.
+  
 
 Documentation practices
 
