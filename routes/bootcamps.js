@@ -12,7 +12,7 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   res.status(200).json({ success: true, msg: 'Create new Boot Camp'});
 });
-router.put('/', (req, res) => {
+router.put('/:id', (req, res) => {
   res.status(200).json({ success: true, msg: 'Update Boot Camp ${req.params.id}'});
 });
 router.delete('/:id', (req, res) => {

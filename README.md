@@ -81,6 +81,14 @@ Routes to be used
   
     /v1 is implemented to allow for AGILE production.  /vx may be implemented later on depending on site changes and api development 
   
+Documentation practices
+
+  Files
+
+    * controllers
+
+        header comments for each function denote method and route and information regarding security layer / authentication T or F
+        
   ### Usage
 
   * ${data.usage}  
