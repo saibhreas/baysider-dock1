@@ -69,10 +69,9 @@ Add Dependencies
     * npm install node-geocoder
 
 
-   
-  
-  ### Usage
-    *     GET/POST/PUT/DELETE
+Routes to be used
+
+     GET/POST/PUT/DELETE
 
       * /api/v1/bootcamps
       * /api/v1/courses
@@ -80,10 +79,16 @@ Add Dependencies
       * /api/v1/auth
       * /api/v1/users
   
+    /v1 is implemented to allow for AGILE production.  /vx may be implemented later on depending on site changes and api development 
+  
+  ### Usage
+
   * ${data.usage}  
   
   ### Technologies
   
+  Node
+  Mongo
   ${data.tech}
   ### Questions? Feel free to contact: ${data.email}
   

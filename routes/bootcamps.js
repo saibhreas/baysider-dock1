@@ -1,28 +1,23 @@
-const express = require ('express');
-
-const { 
-  getBootcamps,
-  getBootcamp,
-  createBootcamp,
-  updateBootcamp,
-  deleteBootcamp,
-  getBootcampsInRadius
-
-} = require('../controllers/bootcamps');
-
+const express = require('express');
 const router = express.Router();
 
-router.route('/radius/:zipcode/:distance').get(getBootcampsInRadius);
 
+router.get('/', (req, res) => {
+  res.status(200).json({ success: true, msg: 'Show all Boot Camps'});
+});
+router.get('/:id', (req, res) => {
+  res.status(200).json({ success: true, msg: 'Show Boot Camp'});
+});
 
-router.route('/')
-  .get(getBootcamps)
-  .post(createBootcamp)
-
-  router.route('/:id')
-  .get(getBootcamp)
-  .put(updateBootcamp)
-  .delete(deleteBootcamp)
+router.post('/', (req, res) => {
+  res.status(200).json({ success: true, msg: 'Create new Boot Camp'});
+});
+router.put('/', (req, res) => {
+  res.status(200).json({ success: true, msg: 'Update Boot Camp ${req.params.id}'});
+});
+router.delete('/:id', (req, res) => {
+  res.status(200).json({ success: true, msg: 'Delete Boot Camp ${req.params.id}'});
+});
 
 module.exports = router;
 
