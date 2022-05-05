@@ -117,7 +117,11 @@ Add Dependencies
 
   7 Intro duce database to the project and begin models.
   
-
+  - set up mongo DB
+  - set up Atlas
+  - install MongoDB Compass 
+    - ( compass not loading correctly-- no installer,exe file.  pinned .exe file to toll bar)
+  - npm installed mongoose
 Documentation practices
 
   Files
