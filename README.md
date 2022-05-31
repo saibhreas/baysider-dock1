@@ -40,8 +40,11 @@ Development site for Traversy Media backend API for DevCamper
   
   ## Description
   
-  ${data.description}
-    
+ Work area for Udemy presented Traversy Media **Node.js API MAsterclass with Express & MongoDB**
+
+Example is guided build of ap that follows an education/class database front to back from user ui, admin ui, to database and efficient API development for interaction.
+
+ June created second branch to mark progress
   ### Licence: ${data.lic}
   
   ${renderLicenseLink(data.lic)}
