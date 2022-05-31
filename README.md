@@ -45,6 +45,8 @@ Development site for Traversy Media backend API for DevCamper
 Example is guided build of ap that follows an education/class database front to back from user ui, admin ui, to database and efficient API development for interaction.
 
  June created second branch to mark progress
+
+  * git push --set-upstream origin june
   ### Licence: ${data.lic}
   
   ${renderLicenseLink(data.lic)}
