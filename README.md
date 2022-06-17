@@ -132,18 +132,18 @@ Documentation practices
         
   ### Usage
 
-  * ${data.usage}  
+  Free to read and fork.
   
   ### Technologies
   
-  Node
-  Mongo
-  ${data.tech}
+   Node
+   Mongo
+ 
   ### Questions? Feel free to contact: ${data.email}
   
   ### Images
   
-  ${data.imgs}
+  
   
   ### Links
   dolphins
