@@ -31,12 +31,12 @@ Development site for Traversy Media backend API for DevCamper
   
   ## Table of Content
   
-  1. [Description](##description)
-  2. [Installation](###installation)
-  3. [Usage](###usage)
-  4. [Contributing](###contributing)
-  5. [Technologies](###technologies)
-  6. [Questions:(###questions)]
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [Technologies](#technologies)
+  5. [Question](#questions)
+  
   
   ## Description
   
@@ -137,18 +137,18 @@ Documentation practices
         
   ### Usage
 
-  * ${data.usage}  
+  Free to read and fork. 
   
   ### Technologies
   
-  Node
-  Mongo
-  ${data.tech}
+    Node
+    Mongo
+  
   ### Questions? Feel free to contact: ${data.email}
   
   ### Images
   
-  ${data.imgs}
+  
   
   ### Links
   dolphins
