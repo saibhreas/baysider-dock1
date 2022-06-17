@@ -40,9 +40,9 @@ Development site for Traversy Media backend API for DevCamper
   
   ## Description
   
-  ${data.description}
+  
     
-  ### Licence: ${data.lic}
+  ### Licence: 
   
   ${renderLicenseLink(data.lic)}
   
